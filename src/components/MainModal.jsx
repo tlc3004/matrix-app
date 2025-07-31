@@ -13,7 +13,7 @@ export default function MainModal({ children, onClick, sonido = "/sounds/glitch-
   const handleClick = () => {
     if (audioRef.current) {
       audioRef.current.currentTime = 0;
-      audioRef.current.volume = 0.5;
+      audioRef.current.volume = 0.9;
       audioRef.current.play();
     }
 
