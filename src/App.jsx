@@ -3,6 +3,7 @@ import MatrixEffect from "./MatrixEffect";
 import MatrixButton from "./pages/MatrixButton";
 import MatrixModal from "./pages/MatrixModal";
 import MainModal from "./components/MainModal";
+import GlitchButton from "./components/GlitchButton";
 
 function App() {
   const [show, setShow] = useState(false); // controla toda la vista
@@ -40,6 +41,7 @@ function App() {
   setShow(false);            // Oculta el MainModal
   setActiveMatrix(true);     // Vuelve a prender la animación
 }}>
+  <GlitchButton/>
   <p className="text-center mt-4"> </p>
 </MainModal>
 

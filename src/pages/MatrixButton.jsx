@@ -20,7 +20,7 @@ export default function MatrixButton({ onClick, sonido = '/sounds/glitch-fx.mp3'
     >
     <button
   onClick={handleClick}
-className="animate-flicker bg-black text-[#0f0] border border-[#0f0] px-6 py-2 rounded font-mono shadow-lg hover:bg-green-900/40 transition-all duration-200"
+className="animate-flicker bg-black text-[#0f0] border border-[#0f0] px-2 py-2 rounded font-mono shadow-lg hover:bg-green-900/40 transition-all duration-200"
 
 >
 
