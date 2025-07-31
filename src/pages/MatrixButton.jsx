@@ -7,7 +7,7 @@ export default function MatrixButton({ onClick, sonido = '/sounds/glitch-fx.mp3'
   const handleClick = () => {
     if (audioRef.current) {
       audioRef.current.currentTime = 0; 
-      audioRef.current.volume = 0.5;
+      audioRef.current.volume = 0.9;
       // reinicia el sonido
       audioRef.current.play();
     }
