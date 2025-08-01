@@ -16,7 +16,7 @@ export default function GlitchButton({ onClick, sonido = "/sounds/jump-fx.mp3" }
     setTimeout(() => {
       setActivar(false);
       if (onClick) onClick();
-    }, 2000); // después de 1s
+    }, 2500); // después de 1s
   };
 
   return (
@@ -33,7 +33,7 @@ export default function GlitchButton({ onClick, sonido = "/sounds/jump-fx.mp3" }
           transform: activar
             ? "translateZ(-300px) scale(0.5)"
             : "translateZ(0) scale(1)",
-          transition: "transform 0.7s ease-in-out",
+          transition: "transform 0.1s ease-in-out",
         }}
       >
         {activar ? "" : "🔘"}

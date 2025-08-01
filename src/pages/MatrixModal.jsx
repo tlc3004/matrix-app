@@ -19,13 +19,13 @@ export default function MatrixModal({ onClose, onActivate }) {
     setTimeout(() => {
       onClose();
       onActivate()
-    }, 500);
+    }, 700);
   };
 
   return (
     <div className="absolute inset-0 bg-black/90 text-neon-green p-4 z-50 flex justify-center items-center">
       {/* 🔊 Audio oculto */}
-      <audio ref={audioRef} src="/sounds/glitch-fx-3.mp3" preload="auto" />
+      <audio ref={audioRef} src="/sounds/glitch-fx.mp3" preload="auto" />
 
       {/* ⚡ Modal Principal */}
       <div 

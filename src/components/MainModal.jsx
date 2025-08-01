@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import MatrixButton from "../pages/MatrixButton"; // tu botón personalizado
 
-export default function MainModal({ children, onClick, sonido = "/sounds/glitch-fx1.mp3" }) {
+export default function MainModal({ children, onClick, sonido = "/sounds/glitch-fx.mp3" }) {
   const [show, setShow] = useState(false);
   const audioRef = useRef(null);
 
